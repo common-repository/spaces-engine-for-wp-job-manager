@@ -1,0 +1,194 @@
+# Copyright (C) 2023 Spaces Engine
+# This file is distributed under the GPL2+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Spaces Engine For WP Job Manager 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/spaces-for-wp-job-manager\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-03-27T09:23:13+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: spaces-wpjm\n"
+
+#. Plugin Name of the plugin
+msgid "Spaces Engine For WP Job Manager"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://spacesengine.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Allow your Spaces to post jobs directly from their page."
+msgstr ""
+
+#. Author of the plugin
+msgid "Spaces Engine"
+msgstr ""
+
+#. translators: %1$s is version of PHP that WP Job Manager requires; %2$s is the version of PHP WordPress is running on.
+#: includes/class-spaces-wpjm-dependency-checker.php:79
+msgid "<strong>Spaces For WP Job Manager</strong> requires a minimum PHP version of %1$s, but you are running %2$s."
+msgstr ""
+
+#: includes/class-spaces-wpjm-dependency-checker.php:90
+msgid "Learn more about updating PHP"
+msgstr ""
+
+#. translators: accessibility text
+#: includes/class-spaces-wpjm-dependency-checker.php:92
+#: includes/class-spaces-wpjm-dependency-checker.php:135
+#: includes/class-spaces-wpjm-dependency-checker.php:172
+msgid "(opens in a new tab)"
+msgstr ""
+
+#: includes/class-spaces-wpjm-dependency-checker.php:125
+msgid "<strong>Spaces For WP Job Manager</strong> requires Spaces Engine (version 1.2.1 or later) to be installed and activated."
+msgstr ""
+
+#: includes/class-spaces-wpjm-dependency-checker.php:133
+msgid "Learn about Spaces Engine"
+msgstr ""
+
+#: includes/class-spaces-wpjm-dependency-checker.php:162
+msgid "<strong>Spaces For WP Job Manager</strong> requires WP Job Manager to be installed and activated."
+msgstr ""
+
+#: includes/class-spaces-wpjm-dependency-checker.php:170
+msgid "Download WP Job Manager"
+msgstr ""
+
+#. translators: %s is the URL for the page where users can go to update WordPress.
+#: includes/class-spaces-wpjm-dependency-checker.php:211
+msgid "Please <a href=\"%s\">update WordPress</a> to avoid issues."
+msgstr ""
+
+#: includes/class-spaces-wpjm-dependency-checker.php:215
+msgid "<strong>Spaces For WP Job Manager</strong> requires a more recent version of WordPress."
+msgstr ""
+
+#: includes/class-spaces-wpjm-dependency-checker.php:229
+#: includes/class-spaces-wpjm-dependency-checker.php:231
+msgid "WordPress Update Required"
+msgstr ""
+
+#: includes/class-spaces-wpjm.php:158
+#: templates/settings-jobs.php:15
+msgid "Job Settings"
+msgstr ""
+
+#. translators: %s: The singular label for a Space
+#: includes/class-spaces-wpjm.php:402
+msgid "%s settings updated successfully"
+msgstr ""
+
+#: includes/class-spaces-wpjm.php:426
+msgid "Space ID"
+msgstr ""
+
+#: includes/class-spaces-wpjm.php:430
+msgid "Enter a Space ID"
+msgstr ""
+
+#: includes/class-spaces-wpjm.php:477
+msgid "Job Colors for Spaces"
+msgstr ""
+
+#: includes/class-spaces-wpjm.php:538
+msgid "View"
+msgstr ""
+
+#: spaces-wpjm-template.php:32
+msgid "All Jobs"
+msgstr ""
+
+#: spaces-wpjm-template.php:39
+msgid "Dashboard"
+msgstr ""
+
+#: spaces-wpjm-template.php:46
+msgid "Submit a Job"
+msgstr ""
+
+#: templates/content-job_listing.php:54
+msgid "Expired"
+msgstr ""
+
+#. translators: 1: Singular number of applications, 2: plural number of applications.
+#: templates/content-job_listing.php:88
+#: templates/job-preview.php:58
+msgid "%d Application"
+msgid_plural "%d Applications"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: Singular number of applications, 2: plural number of applications.
+#: templates/content-job_listing.php:190
+msgid "%d application submitted"
+msgid_plural "%d applications submitted"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/content-job_listing.php:210
+msgid "view all"
+msgstr ""
+
+#: templates/content-job_listing.php:219
+msgid "You have already applied for this job"
+msgstr ""
+
+#: templates/content-job_listing.php:246
+#: templates/job-preview.php:116
+msgid "Ask us a question"
+msgstr ""
+
+#: templates/job-application.php:27
+#: templates/job-preview.php:115
+msgid "Apply for job"
+msgstr ""
+
+#. translators: %s: The singular label for a Space
+#: templates/settings-jobs.php:22
+msgid "Your site administrator may have enabled job management (%1$s) for this %2$s. If you wish to manage jobs, please enable the menu tab via 'Tabs and Buttons' on the left. If the site administrator has enabled additional settings, you will see them below."
+msgstr ""
+
+#: templates/settings-jobs.php:33
+msgid "Application email/URL for job applications"
+msgstr ""
+
+#: templates/settings-jobs.php:36
+msgid "Enter an email or URL to pre-fill the box on the form. Useful if all applications go to the same place."
+msgstr ""
+
+#: templates/settings-jobs.php:43
+msgid "Optional link to a video (will be pre-filled on all forms)"
+msgstr ""
+
+#: templates/settings-jobs.php:50
+msgid "Optional Twitter username (will be pre-filled on all forms)"
+msgstr ""
+
+#: templates/settings-jobs.php:54
+msgid "Enable filters?"
+msgstr ""
+
+#: templates/settings-jobs.php:62
+msgid "If your Space has lots of Jobs, enable filters to make them easier to sort."
+msgstr ""
+
+#. translators: %s: The singular label for a Space
+#: templates/settings-jobs.php:71
+msgid "Save %s Settings"
+msgstr ""
+
+#: templates/wp-job-manager-applications/job-application-footer.php:56
+msgid "Message"
+msgstr ""
+
+#: templates/wp-job-manager-applications/job-applications.php:26
+msgid "&#8629; Return to Dashboard"
+msgstr ""
